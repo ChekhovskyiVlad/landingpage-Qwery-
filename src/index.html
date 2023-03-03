@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+    <main class="main">
+      <div class="start">
+        <div class="container">
+
+          <div class="start__title">
+
+            <h3 class="start__title1"><img src="./img/Line.svg" class="start__title1-line">Explore the Nature beauty</h3>
+            <h3 class="start__title2">Discover</h3>
+            <h3 class="start__title2 start__title2-part1 ">Wonderful Indonesia</h3>
+            <div class="start__scroll">
+              <h5 class="start__scroll-text">Scroll down</h5><img src="./img/arrow_down.svg" alt="" class="start__scroll-img" >
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <article class="information">
+
+        <div class="container">
+          <div class="information__inner" >
+          <img src="./img/information.png" alt="information" class="information__img">
+          <div class="information__side">
+            <h3 class="information__side-title"><img src="./img/Line.svg" class="information__side-title-line">East Nusa Tenggara</h3>
+            <h2 class="information__side-subtitle">Have you <br> enjoyed your <br> holiday?</h2>
+            <p class="information__side-text" id="box">You will be amazed if you take part in this sailing Komodo island tour package. So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism.  The beautiful waters of Komodo will make you meet many travelers from other countries.</p>
+            <p class="information__side-hidetext">
+              Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount Semeru that soars into the sky
+            </p>
+
+              <h4 class="information__side-readmore" onclick="readMoreInf()">read more <img src="./img/arrow__rigth.svg" class="information__side-readmore-arrow" ></h4>
+          </div>
+        </div>
+      </div>
+      </article>
+
+      <article class="about">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+
+                <div class="swiper__slide-container">
+
+
+                <img src="./img/background-info.png" alt="background" class="swiper__img">
+                <div class="swiper__title-container">
+
+                <h3 class="swiper__title"><img src="./img/Line.svg">Bromo<img src="./img/Line.svg"></h3>
+              </div>
+              <h4 class="swiper__subtitle">Steady your steps, we <br>will climb together!</h4>
+              <p class="swiper__text">Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount Semeru that soars into the sky, and gazing at the beauty of the sun moving out of its bed or otherwise enjoying the dim twilight from the Bromo ridge is an unforgettable experience when visiting Bromo.</p>
+            </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper__slide-container">
+
+                <img src="./img/iswanto-arif-u0lAovoUsaU-unsplash 1.png" alt="background" class="swiper__img">
+                <h3 class="swiper__title"><img src="./img/Line.svg">Bromo<img src="./img/Line.svg"></h3>
+              <h4 class="swiper__subtitle">Steady your steps, we <br> will climb together!</h4>
+              <p class="swiper__text">Overall, my trip to Indonesia was an incredible adventure that I will never forget. The country's natural beauty, rich culture, and friendly people made it a truly unforgettable experience.</p></div>
+
+            </div>
+            <div class="swiper-slide">
+            <div class="swiper__slide-container">
+
+              <img src="./img/hugo-matilla-EFuCATqfblI-unsplash 1.png" alt="background" class="swiper__img">
+            <h3 class="swiper__title"><img src="./img/Line.svg">Bromo<img src="./img/Line.svg"></h3>
+            <h4 class="swiper__subtitle">Steady your steps, we <br> will climb together!</h4>
+            <p class="swiper__text">Indonesia is a diverse and fascinating country that offers a unique travel experience. I recently had the opportunity to explore this beautiful archipelago and was blown away by its natural beauty, rich culture, and warm hospitality.</p></div>
+            <div>
+            </div>
+
+        </div>
+      </article>
+
+
+      <article class="culture">
+        <div class="container">
+
+          <div class="culture__inner">
+            <div class="culture__container">
+
+              <h3 class="culture__title"><img src="./img/Line.svg" class="culture__title-img" >Indonesian culture</h3>
+              <h4 class="culture__subtitle">Our culture here<br> is very friendly <br>to people</h4>
+              <p class="culture__text">Known for his politeness, manners and gentleness. This becomes a characteristic when they mingle with other tribes and become basic traits that are passed down by their ancestors.</p>
+
+              <p class="culture__texthide">Overall, my trip to Indonesia was an incredible adventure that I will never forget. The country's natural beauty, rich culture, and friendly people made it a truly unforgettable experience.</p>
+              <h4 class="culture__readmore">read more <img src="./img/arrow__rigth.svg" class="culture__readmore-arrow"></h4>
+            </div>
+              <img src="./img/culture.png" alt="culture" class="culture__img">
+        </div>
+      </div>
+      </article>
+
+      </main>
+      @include('partials/footer.html')
+    <!-- @include('html/h1.html') пример include -->
+    </div>
+    </body>
+    </html>
+
